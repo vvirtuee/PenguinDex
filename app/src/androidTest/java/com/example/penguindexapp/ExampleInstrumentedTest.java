@@ -1,4 +1,4 @@
-package com.example.penguindex;
+package com.example.penguindexapp;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.penguindex", appContext.getPackageName());
+        assertEquals("com.example.penguindexapp", appContext.getPackageName());
     }
 }

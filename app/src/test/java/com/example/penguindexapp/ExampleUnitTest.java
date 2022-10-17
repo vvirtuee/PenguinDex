@@ -1,4 +1,4 @@
-package com.example.penguindex;
+package com.example.penguindexapp;
 
 import org.junit.Test;
 

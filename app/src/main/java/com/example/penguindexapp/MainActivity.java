@@ -1,4 +1,4 @@
-package com.example.penguindex;
+package com.example.penguindexapp;
 
 import android.os.Bundle;
 import android.view.View;
@@ -14,7 +14,7 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.penguindex.databinding.ActivityMainBinding;
+import com.example.penguindexapp.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -8,5 +8,9 @@
             android:id="@+id/nav_contact"
             android:icon="@drawable/contact"
             android:title="Contact" />
+        <item
+            android:id="@+id/nav_fact"
+            android:icon="@drawable/penguins"
+            android:title="Penguins" />
     </group>
 </menu>

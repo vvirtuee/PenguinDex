@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewPager.FactFragment">
+
+
+    <TextView
+        android:id="@+id/factTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:text="Title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/factDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:paddingTop="50dp"
+        android:text="Description"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/factImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="bottom|center"
+        android:src="@drawable/ic_launcher_foreground" />
+
+</LinearLayout>

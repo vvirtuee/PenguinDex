@@ -3,10 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/contactFragment">
+    app:startDestination="@id/factFragment">
     <fragment
         android:id="@+id/contactFragment"
         android:name="com.example.penguindexapp.Fragments.ContactFragment"
         android:label="Contact Us"
         tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/factFragment"
+        android:name="com.example.penguindexapp.ViewPager.FactFragment"
+        android:label="Penguin Types"
+        tools:layout="@layout/fragment_fact" />
 </navigation>

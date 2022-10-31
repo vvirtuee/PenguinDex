@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/nav_fact">
+    app:startDestination="@id/nav_vphost">
     <fragment
         android:id="@+id/nav_contact"
         android:name="com.example.penguindexapp.Fragments.ContactFragment"
@@ -14,4 +14,9 @@
         android:name="com.example.penguindexapp.ViewPager.FactFragment"
         android:label="Penguin Types"
         tools:layout="@layout/fragment_fact" />
+    <fragment
+        android:id="@+id/nav_vphost"
+        android:name="com.example.penguindexapp.ViewPager.VPHostFragment"
+        android:label="fragment_v_p_host"
+        tools:layout="@layout/fragment_v_p_host" />
 </navigation>

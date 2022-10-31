@@ -23,11 +23,15 @@ public class FactFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     private static final String ARG_PARAM3 = "param3";
+    private static final String ARG_PARAM4 = "param4";
+    private static final String ARG_PARAM5 = "param5";
 
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    private int mParam3;
+    private String mParam3;
+    private String mParam4;
+    private int mParam5;
 
     public FactFragment() {
         // Required empty public constructor
@@ -43,12 +47,14 @@ public class FactFragment extends Fragment {
      * @return A new instance of fragment FactFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static FactFragment newInstance(String param1, String param2, int param3) {
+    public static FactFragment newInstance(String param1, String param2, String param3, String param4, int param5) {
         FactFragment fragment = new FactFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
-        args.putInt(ARG_PARAM3, param3);
+        args.putString(ARG_PARAM3, param3);
+        args.putString(ARG_PARAM4, param4);
+        args.putInt(ARG_PARAM5, param5);
         fragment.setArguments(args);
         return fragment;
     }
@@ -59,7 +65,9 @@ public class FactFragment extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
-            mParam3 = getArguments().getInt(ARG_PARAM3);
+            mParam3 = getArguments().getString(ARG_PARAM3);
+            mParam4 = getArguments().getString(ARG_PARAM4);
+            mParam5 = getArguments().getInt(ARG_PARAM5);
         }
     }
 
@@ -73,12 +81,20 @@ public class FactFragment extends Fragment {
           textView.setText(mParam1);
         }
         if(mParam2 != null){
-            TextView textView = view.findViewById(R.id.factDescription);
+            TextView textView = view.findViewById(R.id.factWeight);
             textView.setText(mParam2);
         }
-        if(mParam3 != -1){
+        if(mParam3 != null){
+            TextView textView = view.findViewById(R.id.factDescription);
+            textView.setText(mParam3);
+        }
+        if(mParam4 != null){
+            TextView textView = view.findViewById(R.id.factDescription);
+            textView.setText(mParam4);
+        }
+        if(mParam5 != -1){
             ImageView imageView = view.findViewById(R.id.factImg);
-            imageView.setImageResource(mParam3);
+            imageView.setImageResource(mParam5);
         }
         return view;
     }

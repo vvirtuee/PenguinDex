@@ -12,4 +12,42 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="emperor">Emperor Penguin</string>
+    <string name="adelie">Adelie Penguin</string>
+    <string name="african">African Penguin</string>
+    <string name="macaroni">Macaroni Penguin</string>
+    <string name="chinstrap">Chinstrap Penguin</string>
+    <string name="gentoo">Gentoo Penguin</string>
+    <string name="magellanic">Magellanic Penguin</string>
+    <string name="rockhopper">Rockhopper Penguin</string>
+    <string name="king">King Penguin</string>
+
+    <string name="emperorHeight">100 - 120cm</string>
+    <string name="emperorWeight">22 - 45kg</string>
+    <string name="emperorDescription">The tallest and heaviest of all living penguin species endemic to Antarctica. The male and female are similar in size, it is very common.</string>
+    <string name="adelieHeight">70cm</string>
+    <string name="adelieWeight">4.7kg</string>
+    <string name="adelieDescription">A penguin common along the coast of Antarctica. It is the most common penguin species.</string>
+    <string name="africanHeight">45cm</string>
+    <string name="africanWeight">3.1kg</string>
+    <string name="africanDescription">A flightless penguin native to the South African coast. It has flattened flippers for existing in a marine habitat.</string>
+    <string name="macaroniHeight">50 - 72cm</string>
+    <string name="macaroniWeight">4.7kg</string>
+    <string name="macaroniDescription">A penguin whos name comes from its distinctive yellow crest. Related to the Royal penguin. </string>
+    <string name="chinstrapHeight">72 - 76cm</string>
+    <string name="chinstrapWeight">3 - 5kg</string>
+    <string name="chinstrapDescription">Inhabits a variety of islands and shores in the South Pacific. Its name comes from the narrow black band under its head.</string>
+    <string name="gentooHeight">70 - 95cm</string>
+    <string name="gentooWeight">5.9kg</string>
+    <string name="gentooDescription">Closely related to the Adelie, they are the 3rd largest penguin species. These penguins only breed in areas of snow and ice.</string>
+    <string name="magellanicHeight">61 - 78cm</string>
+    <string name="magellanicWeight">2.7 - 6.5kg</string>
+    <string name="magellanicDescription">This penguin is located in South Africa, along Argentina, Chile, and the Falkman Islands. Its black body and white belly hides it from predators while swimming.</string>
+    <string name="rockhopperHeight">20 - 50cm</string>
+    <string name="rockhopperWeight">2.2kg</string>
+    <string name="rockhopperDescription">One of the crested penguins much like the Macaroni Penguin. Not all experts agree on the classification of these penguins. They live in Argentina, Chile, and New Zealand.</string>
+    <string name="kingHeight">85 - 95cm</string>
+    <string name="kingWeight">9.3 - 17kg</string>
+    <string name="kingDescription">The second largest species. There are 2 subspecies found in the South Atlantic, and South Indian Ocean.</string>
 </resources>

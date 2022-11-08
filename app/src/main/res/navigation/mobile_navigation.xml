@@ -17,6 +17,10 @@
     <fragment
         android:id="@+id/nav_vphost"
         android:name="com.example.penguindexapp.ViewPager.VPHostFragment"
-        android:label="fragment_v_p_host"
+        android:label="Penguin Facts"
         tools:layout="@layout/fragment_v_p_host" />
+    <fragment
+        android:id="@+id/nav_questions"
+        android:name="com.example.penguindexapp.RecyclerView.QuestionsFragment"
+        android:label="Personality Quiz" />
 </navigation>

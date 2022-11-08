@@ -12,5 +12,9 @@
             android:id="@+id/nav_vphost"
             android:icon="@drawable/penguins"
             android:title="Penguins" />
+        <item
+            android:id="@+id/nav_questions"
+            android:icon="@drawable/penguins"
+            android:title="PersonalityQuiz" />
     </group>
 </menu>

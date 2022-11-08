@@ -81,11 +81,11 @@ public class FactFragment extends Fragment {
           textView.setText(mParam1);
         }
         if(mParam2 != null){
-            TextView textView = view.findViewById(R.id.factWeight);
+            TextView textView = view.findViewById(R.id.factHeight);
             textView.setText(mParam2);
         }
         if(mParam3 != null){
-            TextView textView = view.findViewById(R.id.factDescription);
+            TextView textView = view.findViewById(R.id.factWeight);
             textView.setText(mParam3);
         }
         if(mParam4 != null){

@@ -1,33 +1,32 @@
 package com.example.penguindexapp.RecyclerView;
 
 import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.TextView;
-
-import androidx.fragment.app.Fragment;
-import androidx.navigation.Navigation;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import com.example.penguindexapp.R;
-import java.util.ArrayList;
 
-public class QuestionsFragment extends Fragment {
+/**
+ * A simple {@link Fragment} subclass.
+ * Use the {@link CalculateAnswers#newInstance} factory method to
+ * create an instance of this fragment.
+ */
+public class CalculateAnswers extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
+    private static final String ARG_PARAM2 = "param2";
 
     // TODO: Rename and change types of parameters
     private String mParam1;
+    private String mParam2;
 
-    public QuestionsFragment() {
+    public CalculateAnswers() {
         // Required empty public constructor
     }
 
@@ -37,13 +36,14 @@ public class QuestionsFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment OOPTermsFragment.
+     * @return A new instance of fragment CalculateAnswers.
      */
     // TODO: Rename and change types and number of parameters
-    public static QuestionsFragment newInstance(String param1, String param2) {
-        QuestionsFragment fragment = new QuestionsFragment();
+    public static CalculateAnswers newInstance(String param1, String param2) {
+        CalculateAnswers fragment = new CalculateAnswers();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
+        args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
     }
@@ -53,29 +53,14 @@ public class QuestionsFragment extends Fragment {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
+            mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-
-
-        View view = inflater.inflate(R.layout.fragment_question, container, false);
-
-        RecyclerView recyclerView = view.findViewById(R.id.recycle);
-        recyclerView.setLayoutManager(new StaggeredGridLayoutManager(1 ,LinearLayoutManager.VERTICAL));
-        recyclerView.setAdapter(new QuestionsRecyclerViewAdapter(QuestionBank.getInstance().getQuestions()));
-
-        Button calculate = view.findViewById(R.id.calculateBtn);
-        calculate.setOnClickListener(e->{
-            Navigation.findNavController(view, R.id.action_nav_questions_to_calculateAnswers){
-
-            }
-        });
-
-
-        return view;
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_calculate_answers, container, false);
     }
 }

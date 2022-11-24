@@ -1,22 +1,22 @@
 package com.example.penguindexapp.RecyclerView;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import com.example.penguindexapp.R;
-import java.util.ArrayList;
 
 public class QuestionsFragment extends Fragment {
 
@@ -26,6 +26,7 @@ public class QuestionsFragment extends Fragment {
 
     // TODO: Rename and change types of parameters
     private String mParam1;
+    private androidx.navigation.NavController NavController;
 
     public QuestionsFragment() {
         // Required empty public constructor
@@ -68,14 +69,18 @@ public class QuestionsFragment extends Fragment {
         recyclerView.setLayoutManager(new StaggeredGridLayoutManager(1 ,LinearLayoutManager.VERTICAL));
         recyclerView.setAdapter(new QuestionsRecyclerViewAdapter(QuestionBank.getInstance().getQuestions()));
 
-        Button calculate = view.findViewById(R.id.calculateBtn);
-        calculate.setOnClickListener(e->{
-            Navigation.findNavController(view, R.id.action_nav_questions_to_calculateAnswers){
 
+
+        Button calculateBtn = view.findViewById(R.id.calculateBtn);
+        calculateBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                NavController nav = Navigation.findNavController(v);
+                nav.navigate(R.id.nav_questions_to_calculateAnswers);
             }
         });
 
-
         return view;
     }
+
 }

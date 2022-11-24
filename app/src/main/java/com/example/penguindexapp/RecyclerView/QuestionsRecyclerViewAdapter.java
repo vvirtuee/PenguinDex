@@ -49,6 +49,8 @@ public class QuestionsRecyclerViewAdapter extends RecyclerView.Adapter<Questions
                 System.out.println("I clicked on: ");
                 switch (checkedId){
                     case R.id.a1:
+
+                        //set instance of "QuestionBank" index of "position" to T/F.
                         QuestionBank.getInstance().getQuestions().get(position).setA1(true);
                         QuestionBank.getInstance().getQuestions().get(position).setA2(false);
                         QuestionBank.getInstance().getQuestions().get(position).setA3(false);

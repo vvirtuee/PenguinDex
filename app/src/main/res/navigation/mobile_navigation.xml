@@ -24,7 +24,7 @@
         android:name="com.example.penguindexapp.RecyclerView.QuestionsFragment"
         android:label="Personality Quiz" >
         <action
-            android:id="@+id/action_nav_questions_to_calculateAnswers"
+            android:id="@+id/nav_questions_to_calculateAnswers"
             app:destination="@id/calculateAnswers" />
     </fragment>
     <fragment

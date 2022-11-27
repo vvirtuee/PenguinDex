@@ -42,6 +42,9 @@ public class QuestionsRecyclerViewAdapter extends RecyclerView.Adapter<Questions
     public void onBindViewHolder(@NonNull CustomViewHolder holder, int position) {
         Question term = terms.get(position);
         holder.question.setText(term.getQuestion());
+
+
+
         holder.rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
 
             @Override

@@ -11,9 +11,9 @@ import com.example.penguindexapp.R;
 public class Question {
 
     private String question;
-    private boolean a1;
-    private boolean a2;
-    private boolean a3;
+    private boolean a1 = false;
+    private boolean a2 = true;
+    private boolean a3 = false;
 
     public Question(String question) {
         this.question = question;

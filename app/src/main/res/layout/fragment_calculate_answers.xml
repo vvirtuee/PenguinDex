@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -26,42 +26,82 @@
             android:gravity="center"
             android:paddingLeft="10dp"
             android:paddingTop="20dp"
-            android:text="penguinName" />
+            android:text="penguinName"
+            android:textSize="34sp" />
 
-        <TextView
-            android:id="@+id/penguinWeight"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:paddingLeft="10dp"
-            android:paddingTop="20dp"
-            android:text="penguinWeight" />
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
 
-        <TextView
-            android:id="@+id/penguinHeight"
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Weight:" />
+
+            <TextView
+                android:id="@+id/penguinWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="penguinWeight" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:paddingLeft="10dp"
-            android:paddingTop="20dp"
-            android:paddingBottom="10dp"
-            android:text="penguinHeight" />
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
 
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:src="@tools:sample/avatars" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Height:" />
+
+            <TextView
+                android:id="@+id/penguinHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="penguinHeight" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/penguinDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:paddingLeft="10dp"
+            android:paddingLeft="20dp"
             android:paddingTop="20dp"
+            android:paddingRight="20dp"
             android:text="penguinDescription" />
+
+        <ImageView
+            android:id="@+id/penguinDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:cropToPadding="false"
+            android:maxHeight="40dp"
+            android:padding="20dp"
+            tools:src="@tools:sample/avatars" />
 
     </LinearLayout>
 
-</FrameLayout>
+</LinearLayout>

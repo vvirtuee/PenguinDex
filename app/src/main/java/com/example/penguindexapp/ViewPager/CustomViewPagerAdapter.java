@@ -29,7 +29,7 @@ public class CustomViewPagerAdapter extends FragmentStateAdapter {
             case 5 : return FactFragment.newInstance(activity.getBaseContext().getString(R.string.gentoo),activity.getBaseContext().getString(R.string.gentooHeight), activity.getBaseContext().getString(R.string.gentooWeight),  activity.getBaseContext().getString(R.string.gentooDescription), R.drawable.gentoo);
             case 6 : return FactFragment.newInstance(activity.getBaseContext().getString(R.string.magellanic),activity.getBaseContext().getString(R.string.magellanicHeight), activity.getBaseContext().getString(R.string.magellanicWeight), activity.getBaseContext().getString(R.string.magellanicDescription), R.drawable.magellanic);
             case 7 : return FactFragment.newInstance(activity.getBaseContext().getString(R.string.rockhopper), activity.getBaseContext().getString(R.string.rockhopperHeight), activity.getBaseContext().getString(R.string.rockhopperWeight), activity.getBaseContext().getString(R.string.rockhopperDescription), R.drawable.rockhopper);
-            case 8 : return FactFragment.newInstance(activity.getBaseContext().getString(R.string.king),activity.getBaseContext().getString(R.string.kingHeight), activity.getBaseContext().getString(R.string.kingWeight),  activity.getBaseContext().getString(R.string.kingDescription), 0);
+            case 8 : return FactFragment.newInstance(activity.getBaseContext().getString(R.string.king),activity.getBaseContext().getString(R.string.kingHeight), activity.getBaseContext().getString(R.string.kingWeight),  activity.getBaseContext().getString(R.string.kingDescription), R.drawable.king);
             default : return FactFragment.newInstance("404: Fragment not found", "Sorry!!","","", R.drawable.ic_menu_camera);
         }
     }
@@ -37,6 +37,6 @@ public class CustomViewPagerAdapter extends FragmentStateAdapter {
     @Override
     public int getItemCount() {
        // return Integer.MAX_VALUE;
-        return 7;
+        return 9;
     }
 }

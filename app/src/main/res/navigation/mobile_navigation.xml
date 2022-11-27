@@ -32,4 +32,9 @@
         android:name="com.example.penguindexapp.RecyclerView.CalculateAnswers"
         android:label="fragment_calculate_answers"
         tools:layout="@layout/fragment_calculate_answers" />
+    <fragment
+        android:id="@+id/nav_credits"
+        android:name="com.example.penguindexapp.ListView.DataTypeFragment"
+        android:label="fragment_data_type"
+        tools:layout="@layout/fragment_data_type" />
 </navigation>

@@ -18,12 +18,12 @@
         android:layout_height="match_parent"
         android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/imageOfGhost"
+        <TextView
+            android:id="@+id/creditsSource"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/ic_launcher_foreground" />
+            android:text="TextView" />
     </ScrollView>
 
 </LinearLayout>

@@ -1,34 +1,33 @@
 package com.example.penguindexapp.ListView;
 
 public class DataType {
-    private String name;
-    private String description;
+    private String creditsDescription;
+    private String creditsSource;
     private int image;
 
-    public DataType(String name, String description, int image) {
-        this.name = name;
-        this.description = description;
-        this.image = image;
+    public DataType(String creditsDescription, String creditsSource, int image) {
+        this.creditsDescription = creditsDescription;
+        this.creditsSource = creditsSource;
     }
 
-    public String getName() {
-        return name;
+    public String getCreditsDescription() {
+        return creditsDescription;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setCreditsDescription(String creditsDescription) {
+        this.creditsDescription = creditsDescription;
     }
 
-    public String getDescription() {
-        return description;
+    public String getCreditsSource() {
+        return creditsSource;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setCreditsSource(String creditsSource) {
+        this.creditsSource = creditsSource;
     }
     //The toString() is what will show in the list
     public String toString(){
-        return getName();
+        return getCreditsDescription();
     }
 
     public void setImage(int image){this.image = image;}

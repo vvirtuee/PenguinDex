@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
@@ -25,6 +26,7 @@ public class DataTypeFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+    TextView creditsSource;
     ImageView dataTypeDefinition;
 
     // TODO: Rename and change types of parameters
@@ -66,7 +68,7 @@ public class DataTypeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_data_type, container, false);
-        dataTypeDefinition = view.findViewById(R.id.imageOfGhost);
+        creditsSource = view.findViewById(R.id.creditsSource);
         ListView listView = view.findViewById(R.id.dataTypeListView);
         ArrayList<DataType> dataTypes = new ArrayList<>();
         dataTypes.add(new DataType("Blinky", "Red Ghost, aggressively chases Pacman", 0));
@@ -83,8 +85,9 @@ public class DataTypeFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position,
                                     long id) {
-                dataTypeDefinition.setImageResource(((DataType)listView
-                        .getItemAtPosition(position)).getImage());
+                creditsSource.setText(((DataType)listView.getItemAtPosition(position)).getCreditsSource());
+                //dataTypeDefinition.setImageResource(((DataType)listView
+                        //.getItemAtPosition(position)).getImage());
             }
         });
 

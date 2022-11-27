@@ -28,10 +28,10 @@ public class CustomListViewAdapter extends ArrayAdapter<DataType> {
                     LayoutInflater
                             .from(getContext())
                             .inflate(R.layout.item_view, parent, false);
-            TextView name = convertView.findViewById(R.id.name);
-            name.setText(item.getName());
-            TextView definition = convertView.findViewById(R.id.definition);
-            definition.setText(item.getDescription());
+            TextView name = convertView.findViewById(R.id.creditsDescription);
+            name.setText(item.getCreditsDescription());
+            TextView definition = convertView.findViewById(R.id.creditsDescription);
+            definition.setText(item.getCreditsDescription());
         }
         return convertView;
     }

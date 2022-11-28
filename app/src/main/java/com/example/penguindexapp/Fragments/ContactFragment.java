@@ -82,8 +82,8 @@ public class ContactFragment extends Fragment {
             }
         });
 
-        Button phoneBtn = v.findViewById(R.id.phoneBtn);
-        phoneBtn.setOnClickListener(new View.OnClickListener() {
+        Button messageBtn = v.findViewById(R.id.messageBtn);
+        messageBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_SENDTO);

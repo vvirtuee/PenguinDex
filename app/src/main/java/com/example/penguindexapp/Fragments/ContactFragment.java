@@ -103,6 +103,15 @@ public class ContactFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        Button phoneBtn = v.findViewById(R.id.phoneBtn);
+        phoneBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+
+            }
+        });
+
         Button websiteBtn = v.findViewById(R.id.websiteBtn);
         websiteBtn.setOnClickListener(new View.OnClickListener() {
             @Override

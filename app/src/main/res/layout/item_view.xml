@@ -7,11 +7,7 @@
 
     <TextView
         android:id="@+id/creditsDescription"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="in programming a string is text based information"
-        android:textStyle="italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:text="TextView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,6 +8,7 @@ public class DataType {
     public DataType(String creditsDescription, String creditsSource, int image) {
         this.creditsDescription = creditsDescription;
         this.creditsSource = creditsSource;
+        this.image = image;
     }
 
     public String getCreditsDescription() {

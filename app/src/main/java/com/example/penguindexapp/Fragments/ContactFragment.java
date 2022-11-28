@@ -108,7 +108,8 @@ public class ContactFragment extends Fragment {
         phoneBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "5199722727"));
+                startActivity(intent);
             }
         });
 

@@ -73,6 +73,7 @@ public class DataTypeFragment extends Fragment {
         ListView listView = view.findViewById(R.id.dataTypeListView);
         ArrayList<DataType> dataTypes = new ArrayList<>();
 
+        dataTypes.add(new DataType("Message Icon", "freeiconspng.com, personal use", R.drawable.message));
         dataTypes.add(new DataType("Website Icon", "freeiconspng.com, personal use", R.drawable.website));
         dataTypes.add(new DataType("Phone Icon", "iconfinder.com, personal use", R.drawable.phone));
         dataTypes.add(new DataType("Maps Icon", "freeiconspng.com, personal use", R.drawable.maps));

@@ -11,5 +11,6 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/acme"
         android:text="TextView"
+        android:textColor="@color/purple_500"
         android:textSize="@dimen/lessImportant" />
 </androidx.constraintlayout.widget.ConstraintLayout>

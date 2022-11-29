@@ -32,7 +32,7 @@
                 android:gravity="center"
                 android:paddingTop="@dimen/basicPadding"
                 android:paddingBottom="@dimen/basicPadding"
-                android:text="TextView"
+                android:textColor="@color/purple_500"
                 android:textSize="@dimen/lessImportant" />
 
             <ImageView

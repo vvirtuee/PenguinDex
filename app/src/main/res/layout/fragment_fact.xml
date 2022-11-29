@@ -16,6 +16,7 @@
         android:fontFamily="@font/chewy"
         android:gravity="center|top"
         android:text="Title"
+        android:textColor="@color/purple_700"
         android:textSize="30sp" />
 
     <LinearLayout
@@ -29,7 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/acme"
-            android:text="Height: " />
+            android:text="Height: "
+            android:textColor="@color/purple_200" />
 
         <TextView
             android:id="@+id/factHeight"
@@ -52,7 +54,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/acme"
-            android:text="Weight:" />
+            android:text="Weight:"
+            android:textColor="@color/purple_200" />
 
         <TextView
             android:id="@+id/factWeight"

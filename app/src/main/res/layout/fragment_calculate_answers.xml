@@ -32,6 +32,7 @@
             android:paddingLeft="10dp"
             android:paddingTop="20dp"
             android:text="penguinName"
+            android:textColor="@color/purple_700"
             android:textSize="@dimen/revealText" />
 
         <LinearLayout
@@ -48,6 +49,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/acme"
                 android:text="Weight:"
+                android:textColor="@color/purple_200"
                 android:textSize="@dimen/paragraphs" />
 
             <TextView
@@ -77,6 +79,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/acme"
                 android:text="Height:"
+                android:textColor="@color/purple_200"
                 android:textSize="@dimen/paragraphs" />
 
             <TextView

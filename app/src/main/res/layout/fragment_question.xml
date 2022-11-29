@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:fontFamily="@font/chewy"
-        android:text="Calculate Score!" />
+        android:text="Calculate Score!"
+        app:rippleColor="@color/purple_700" />
 
 </LinearLayout>

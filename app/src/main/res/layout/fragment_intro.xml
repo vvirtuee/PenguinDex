@@ -18,6 +18,7 @@
         android:fontFamily="@font/chewy"
         android:gravity="center_horizontal"
         android:text="@string/introText"
+        android:textColor="@color/purple_700"
         android:textSize="@dimen/titles" />
 
     <TextView
@@ -26,6 +27,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/acme"
         android:text="@string/introParagraph1"
+        android:textColor="@color/purple_500"
         android:textSize="@dimen/paragraphs" />
 
     <ImageView
@@ -42,6 +44,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/acme"
         android:text="@string/introParagraph2"
+        android:textColor="@color/purple_500"
         android:textSize="@dimen/paragraphs" />
 
 </LinearLayout>

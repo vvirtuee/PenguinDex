@@ -118,7 +118,7 @@
             android:adjustViewBounds="true"
             android:cropToPadding="false"
             android:padding="20dp"
-            tools:src="@tools:sample/avatars" />
+            tools:src="@drawable/penguinDexLogo" />
 
     </LinearLayout>
 

@@ -31,6 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/chewy"
             android:text="Email"
             android:textSize="@dimen/buttons" />
     </LinearLayout>
@@ -54,6 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/chewy"
             android:text="Text"
             android:textSize="@dimen/buttons" />
 
@@ -78,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/chewy"
             android:text="Maps"
             android:textSize="@dimen/buttons" />
 
@@ -102,6 +105,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/chewy"
             android:text="Phone"
             android:textSize="@dimen/buttons" />
     </LinearLayout>
@@ -125,6 +129,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/chewy"
             android:text="Visit Our Instagram!"
             android:textSize="@dimen/buttons" />
     </LinearLayout>
@@ -147,6 +152,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/chewy"
             android:text="Add Us To Contacts"
             android:textSize="@dimen/buttons" />
     </LinearLayout>

@@ -17,6 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
             android:paddingLeft="10dp"
             android:paddingTop="20dp"
             android:text="You are most like..."
@@ -26,6 +27,7 @@
             android:id="@+id/penguinName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/chewy"
             android:gravity="center"
             android:paddingLeft="10dp"
             android:paddingTop="20dp"
@@ -44,6 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/acme"
                 android:text="Weight:"
                 android:textSize="@dimen/paragraphs" />
 
@@ -52,6 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/acme"
                 android:gravity="center"
                 android:paddingTop="20dp"
                 android:text="penguinWeight"
@@ -71,6 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/acme"
                 android:text="Height:"
                 android:textSize="@dimen/paragraphs" />
 
@@ -79,6 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/acme"
                 android:gravity="center"
                 android:paddingLeft="10dp"
                 android:paddingTop="20dp"
@@ -92,6 +98,7 @@
             android:id="@+id/penguinDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
             android:gravity="center"
             android:paddingLeft="20dp"
             android:paddingTop="20dp"

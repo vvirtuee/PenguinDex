@@ -15,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:fontFamily="@font/chewy"
         android:gravity="center_horizontal"
         android:text="@string/introText"
         android:textSize="@dimen/titles" />
@@ -23,6 +24,7 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
         android:text="@string/introParagraph1"
         android:textSize="@dimen/paragraphs" />
 
@@ -38,6 +40,7 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
         android:text="@string/introParagraph2"
         android:textSize="@dimen/paragraphs" />
 

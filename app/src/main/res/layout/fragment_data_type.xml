@@ -11,7 +11,8 @@
         android:id="@+id/dataTypeListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:layoutAnimation="@anim/layout_slidefromleft"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -35,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                tools:src="@drawable/ic_launcher_foreground" />
+                tools:src="@drawable/ic_launcher_foreground"/>
 
         </LinearLayout>
     </ScrollView>

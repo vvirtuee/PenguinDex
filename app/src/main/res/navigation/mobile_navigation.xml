@@ -30,7 +30,7 @@
     <fragment
         android:id="@+id/calculateAnswers"
         android:name="com.example.penguindexapp.RecyclerView.CalculateAnswers"
-        android:label="fragment_calculate_answers"
+        android:label="Your Penguin Personality"
         tools:layout="@layout/fragment_calculate_answers" />
     <fragment
         android:id="@+id/nav_credits"

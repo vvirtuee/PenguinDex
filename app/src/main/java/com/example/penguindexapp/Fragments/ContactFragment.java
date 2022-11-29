@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -120,6 +121,21 @@ public class ContactFragment extends Fragment {
                 String url = "http://www.instagram.com/penguindex";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
+
+        Button contactsBtn = v.findViewById(R.id.contactsBtn);
+        contactsBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                System.out.println("button clicked");
+                Intent i = new Intent(ContactsContract.Intents.Insert.ACTION);
+                i.setType(ContactsContract.Contacts.CONTENT_TYPE);
+                i.putExtra(ContactsContract.Intents.Insert.NAME, "PenguinDex");
+                i.putExtra(ContactsContract.Intents.Insert.COMPANY, "PenguinDex Co.");
+                i.putExtra(ContactsContract.Intents.Insert.EMAIL, "contact@penguindex.com");
+                i.putExtra(ContactsContract.Intents.Insert.PHONE, "tel:5199722727");
                 startActivity(i);
             }
         });

@@ -76,6 +76,7 @@ public class DataTypeFragment extends Fragment {
         dataTypes.add(new DataType("Message Icon", "freeiconspng.com, personal use", R.drawable.message));
         dataTypes.add(new DataType("Website Icon", "freeiconspng.com, personal use", R.drawable.website));
         dataTypes.add(new DataType("Phone Icon", "iconfinder.com, personal use", R.drawable.phone));
+        dataTypes.add(new DataType("Contacts Icon", "iconfinder.com, personal use", R.drawable.contacts));
         dataTypes.add(new DataType("Maps Icon", "freeiconspng.com, personal use", R.drawable.maps));
         dataTypes.add(new DataType("Instagram Icon", "freeiconspng.com, personal use", R.drawable.instagram));
         dataTypes.add(new DataType("Adelie Picture", "flickr.com, Attribution-ShareAlike 2.0 Generic, Liam Qinn", R.drawable.adelie));

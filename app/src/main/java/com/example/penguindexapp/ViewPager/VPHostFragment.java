@@ -75,8 +75,6 @@ public class VPHostFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_v_p_host, container, false);
         viewPager2 = view.findViewById(R.id.tipsViewPager);
-        // viewPager2.setOrientation(ViewPager2.ORIENTATION_HORIZONTAL);
-        //viewPager2.setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         viewPager2.setAdapter(new com.example.penguindexapp.ViewPager.CustomViewPagerAdapter(getActivity()));
         return view;
     }

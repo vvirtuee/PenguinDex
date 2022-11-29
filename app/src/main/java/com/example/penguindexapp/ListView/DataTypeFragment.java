@@ -91,9 +91,6 @@ public class DataTypeFragment extends Fragment {
         dataTypes.add(new DataType("Magellanic Picture", "flickr.com, All Rights Reserved, * Zara *", R.drawable.magellanic));
         dataTypes.add(new DataType("Rockhopper Picture", "flickr.com, All Rights Reserved, Philpete", R.drawable.rockhopper));
 
-        //Method 1) use the existing adapter
-//        ArrayAdapter arrayAdapter = new ArrayAdapter(getContext(),
-//                android.R.layout.simple_list_item_1, dataTypes);
         CustomListViewAdapter arrayAdapter1 = new CustomListViewAdapter(getContext(), dataTypes);
         listView.setAdapter(arrayAdapter1);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

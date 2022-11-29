@@ -219,3 +219,12 @@ public class CalculateAnswers extends Fragment {
         return "";
     }
 }
+
+/** Personality Grid
+ *                     Motivation
+ *                 -1          0           +1
+ *              ____________|___________|____________
+ *          -1 | African    | Chinstrap | Rockhopper
+ * Societal  0 | Magellanic | Adelie    | Gentoo
+ *          +1 | Macaroni   | King      | Emperor
+ */

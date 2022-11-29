@@ -73,12 +73,14 @@ public class DataTypeFragment extends Fragment {
         ListView listView = view.findViewById(R.id.dataTypeListView);
         ArrayList<DataType> dataTypes = new ArrayList<>();
 
+        dataTypes.add(new DataType("Penguin Icon", "iconfinder.com, personal use", R.drawable.penguin));
         dataTypes.add(new DataType("Message Icon", "freeiconspng.com, personal use", R.drawable.message));
         dataTypes.add(new DataType("Website Icon", "freeiconspng.com, personal use", R.drawable.website));
         dataTypes.add(new DataType("Phone Icon", "iconfinder.com, personal use", R.drawable.phone));
         dataTypes.add(new DataType("Contacts Icon", "iconfinder.com, personal use", R.drawable.contacts));
         dataTypes.add(new DataType("Maps Icon", "freeiconspng.com, personal use", R.drawable.maps));
         dataTypes.add(new DataType("Instagram Icon", "freeiconspng.com, personal use", R.drawable.instagram));
+        dataTypes.add(new DataType("Penguins Picture", "flickr.com, Attribution-ShareAlike 2.0 Generic, rubycantfail", R.drawable.penguins));
         dataTypes.add(new DataType("Adelie Picture", "flickr.com, Attribution-ShareAlike 2.0 Generic, Liam Qinn", R.drawable.adelie));
         dataTypes.add(new DataType("African Picture", "flickr.com, All Rights Reserved, Derek Keats", R.drawable.african));
         dataTypes.add(new DataType("Chinstrap Picture", "flickr.com, All Rights Reserved, David Brown", R.drawable.chinstrap));

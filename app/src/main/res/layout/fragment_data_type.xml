@@ -29,14 +29,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="TextView" />
+                android:paddingTop="@dimen/basicPadding"
+                android:paddingBottom="@dimen/basicPadding"
+                android:text="TextView"
+                android:textSize="@dimen/lessImportant" />
 
             <ImageView
                 android:id="@+id/creditsImage"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/images"
                 android:adjustViewBounds="true"
-                tools:src="@drawable/ic_launcher_foreground"/>
+                tools:src="@drawable/ic_launcher_foreground" />
 
         </LinearLayout>
     </ScrollView>

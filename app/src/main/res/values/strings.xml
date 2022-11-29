@@ -1,4 +1,15 @@
 <resources>
+    <string name="introText"><u>PenguinDex</u></string>
+    <string name="introParagraph1">     Hello! This app is dedicated to penguin enthusiasts who enjoy the flightless bird! PenguinDex Co.
+        provides you with fun information about penguins, a personality quiz of penguins, and booking information
+        to visit the penguins at our special reserve on Penguin Island in the Antarctic!
+    </string>
+    <string name="introParagraph2">     Please feel free to visit our extra tabs for information and fun related to penguins! We hope to see you soon!
+    </string>
+
+    <string name="email">contact@penguindex.com</string>
+
+
     <string name="app_name">PenguinDexApp</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

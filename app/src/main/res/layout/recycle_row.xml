@@ -14,7 +14,7 @@
         android:layout_marginStart="10dp"
         android:text="QuestionText"
         android:textAlignment="textStart"
-        android:textSize="24sp" />
+        android:textSize="@dimen/questions" />
 
     <RadioGroup
         android:layout_width="match_parent"

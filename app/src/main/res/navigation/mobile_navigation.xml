@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/nav_vphost">
+    app:startDestination="@id/nav_home">
     <fragment
         android:id="@+id/nav_contact"
         android:name="com.example.penguindexapp.Fragments.ContactFragment"
@@ -37,4 +37,9 @@
         android:name="com.example.penguindexapp.ListView.DataTypeFragment"
         android:label="Credits"
         tools:layout="@layout/fragment_data_type" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.penguindexapp.Fragments.IntroFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_intro" />
 </navigation>

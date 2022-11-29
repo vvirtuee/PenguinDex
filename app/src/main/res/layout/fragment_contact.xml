@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.ContactFragment"
-    android:orientation = "vertical"
-    android:layoutAnimation="@anim/layout_bounce">
+    android:layoutAnimation="@anim/layout_bounce"
+    android:orientation="vertical"
+    android:padding="@dimen/extraPadding"
+    tools:context=".Fragments.ContactFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -14,8 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingTop="10dp"
-        android:paddingRight="10dp"
+        android:paddingTop="@dimen/basicPadding"
+        android:paddingRight="@dimen/basicPadding"
         android:paddingBottom="10dp">
 
         <ImageView
@@ -30,15 +31,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Email" />
+            android:text="Email"
+            android:textSize="@dimen/buttons" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingRight="10dp"
-        android:paddingBottom="10dp">
+        android:paddingRight="@dimen/basicPadding"
+        android:paddingBottom="@dimen/basicPadding">
 
         <ImageView
             android:id="@+id/imageView6"
@@ -52,7 +54,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Text" />
+            android:text="Text"
+            android:textSize="@dimen/buttons" />
 
     </LinearLayout>
 
@@ -60,8 +63,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingRight="10dp"
-        android:paddingBottom="10dp">
+        android:paddingRight="@dimen/basicPadding"
+        android:paddingBottom="@dimen/basicPadding">
 
         <ImageView
             android:id="@+id/imageView5"
@@ -75,7 +78,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Maps" />
+            android:text="Maps"
+            android:textSize="@dimen/buttons" />
 
     </LinearLayout>
 
@@ -83,8 +87,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingRight="10dp"
-        android:paddingBottom="10dp">
+        android:paddingRight="@dimen/basicPadding"
+        android:paddingBottom="@dimen/basicPadding">
 
         <ImageView
             android:id="@+id/imageView3"
@@ -98,7 +102,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Phone" />
+            android:text="Phone"
+            android:textSize="@dimen/buttons" />
     </LinearLayout>
 
     <LinearLayout
@@ -106,7 +111,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingRight="10dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="@dimen/basicPadding">
 
         <ImageView
             android:id="@+id/imageView7"
@@ -120,14 +125,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Visit Our Instagram!" />
+            android:text="Visit Our Instagram!"
+            android:textSize="@dimen/buttons" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingRight="10dp">
+        android:paddingRight="@dimen/basicPadding">
 
         <ImageView
             android:id="@+id/imageView9"
@@ -141,13 +147,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Add Us To Contacts" />
+            android:text="Add Us To Contacts"
+            android:textSize="@dimen/buttons" />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/images"
         tools:src="@tools:sample/avatars" />
 
 

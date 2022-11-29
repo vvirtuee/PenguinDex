@@ -1,4 +1,18 @@
 <resources>
+
+    <dimen name="titles">26dp</dimen>
+    <dimen name="questions">24dp</dimen>
+    <dimen name="lessImportant">14dp</dimen>
+    <dimen name="buttons">20dp</dimen>
+    <dimen name="revealText">34dp</dimen>
+    <dimen name="paragraphs">18dp</dimen>
+    <dimen name="smallerImage">150dp</dimen>
+    <dimen name="images">300dp</dimen>
+
+    <dimen name="basicPadding">10dp</dimen>
+    <dimen name="extraPadding">20dp</dimen>
+    <dimen name="separationParagraph">50dp</dimen>
+
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>

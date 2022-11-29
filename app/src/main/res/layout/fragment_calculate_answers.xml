@@ -4,21 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="@dimen/extraPadding"
     tools:context=".RecyclerView.CalculateAnswers">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layoutAnimation="@anim/layout_animation">
+        android:layoutAnimation="@anim/layout_animation"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
             android:paddingTop="20dp"
-            android:text="You are most like..." />
+            android:text="You are most like..."
+            android:textSize="@dimen/lessImportant" />
 
         <TextView
             android:id="@+id/penguinName"
@@ -28,7 +30,7 @@
             android:paddingLeft="10dp"
             android:paddingTop="20dp"
             android:text="penguinName"
-            android:textSize="34sp" />
+            android:textSize="@dimen/revealText" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,7 +44,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Weight:" />
+                android:text="Weight:"
+                android:textSize="@dimen/paragraphs" />
 
             <TextView
                 android:id="@+id/penguinWeight"
@@ -51,7 +54,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:paddingTop="20dp"
-                android:text="penguinWeight" />
+                android:text="penguinWeight"
+                android:textSize="@dimen/paragraphs" />
 
         </LinearLayout>
 
@@ -67,7 +71,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Height:" />
+                android:text="Height:"
+                android:textSize="@dimen/paragraphs" />
 
             <TextView
                 android:id="@+id/penguinHeight"
@@ -78,7 +83,8 @@
                 android:paddingLeft="10dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="10dp"
-                android:text="penguinHeight" />
+                android:text="penguinHeight"
+                android:textSize="@dimen/paragraphs" />
 
         </LinearLayout>
 
@@ -90,7 +96,8 @@
             android:paddingLeft="20dp"
             android:paddingTop="20dp"
             android:paddingRight="20dp"
-            android:text="penguinDescription" />
+            android:text="penguinDescription"
+            android:textSize="@dimen/paragraphs" />
 
         <ImageView
             android:id="@+id/penguinDisplay"
@@ -98,8 +105,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="0dp"
             android:layout_weight="1"
+            android:adjustViewBounds="true"
             android:cropToPadding="false"
-            android:maxHeight="40dp"
             android:padding="20dp"
             tools:src="@tools:sample/avatars" />
 

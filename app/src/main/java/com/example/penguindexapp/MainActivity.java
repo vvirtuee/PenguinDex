@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        navController.navigate(R.id.nav_settings);
+        //navController.navigate(R.id.nav_settings);
         //System.out.println("item selected: " + item);
         return super.onOptionsItemSelected(item);
     }
